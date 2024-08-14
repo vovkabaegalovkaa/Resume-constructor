@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(59, 62, 121);
+    height: fit-content;
+}
+div{
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+#app{
+    background-color: rgba(0, 0, 0, 0);
+    height: fit-content;
+}
+.container{
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    gap: 1%;
+    height: fit-content;
+}
+.formController{
+    display: flex;
+    flex-direction: column;
+}
+.formControllerDiv{
+    width: 80%;
+    margin: auto;
+}
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    gap: 15px;
+    font-size: 14pt;
+    height: fit-content;
+    padding: 10px 0;
+}
+.resume{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    text-align: center;
+    margin-top: 0;
+    padding-top: 10px;
+}
+.btnContainer{
+    width: 80%;
+    margin: auto;
+}
+.btn{
+    border-radius: 5px;
+    border-style: solid;
+}
+h2{
+    text-align: center;
+}
+h4, p{
+    padding-left: 2%;
+}
+p{
+    padding-right: 2%;
+}
+img{
+    width: 16%;  
+    border-radius: 5px;
+    margin-left: 42%;   
+}
